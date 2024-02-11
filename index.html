@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,7 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li> <a href="#">Home</a> </li>
+                    <li> <a href="#" class="active">Home</a> </li>
                     <li> <a href="#">Quem somos</a> </li>
                     <li> <a href="#">Produtos e serviços</a> </li>
                     <li> <a href="#">Aplicações</a> </li>
@@ -24,20 +24,42 @@
             </div>
         </header>
         <section id="banner">
-
+            <div class="container-image">
+                <img src="./images/banner-01.jpg" alt="GAPP-BANNER">    
+                
+            </div>
+            <div class="container-slider">
+                <div class="slider-1">
+                    <div class="context">
+                        <h2>Ferramentaria</h2>
+                        <p>Fazemos usinagem em materiais ferrosos, não ferrosos, pláticos e elestômeros. Além da fabricação de diversas peças, todas customizadas para a necessidade do cliente, respeitando os desenhos ou amostras.</p>
+                    </div>
+                    <div class="navegation">
+                        <div class="icons">
+                            <input type="button" name="proximo" id="btn-proximo" value="<">
+                            <input type="button" name="anterior" id="btn-anterior" value=">">
+                        </div>
+                        <div class="marcador">
+                            <span class="spector-active"> </span>
+                            <span class="spector"></span>
+                            <span class="spector"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="content">
-            <div class="col">
-                <h2></h2>
-                <p></p>
-                <a href="#" class="btn-saiba-mais">Saiba mais</a>
+        <section id="content-cards">
+            <div class="card">
+                <h2>Conheça a GAPP</h2>
+                <p>Nossa estrutura permite oferecer um serviço personalidado, qualidade excepcional e o fácil acesso do cliente a todas as etapas do processo, desde o projeto até o produto final.</p>
+                <a href="#" class="btn-saiba-mais">Saiba mais <i>></i></a>
             </div>
-            <div class="col">
-                <h2></h2>
-                <p></p>
-                <a href="#" class="btn-saiba-mais">Saiba mais</a>
+            <div class="card">
+                <h2>Produtos e Serviços</h2>
+                <p>Com máquinas modernas e instalações adequadas, a GAPP está preparada para atender as mais exigentes necessidades no setor de mecânica de precisão.</p>
+                <a href="#" class="btn-saiba-mais">Saiba mais <i>></i></a>
             </div>
-            <div class="col">
+            <div class="card">
                 <h2>Principais Aplicações</h2>
                 <a href="#">
                     <img src="./images/img-video.jpg" alt="video">
@@ -46,9 +68,23 @@
         </section>
         
     </div>
-    <footer>
-        <div class="container">
-
+    <footer class="footer">
+        <div class="container-contacto">
+            <img src="./images/logo-gapp-footer.png" alt="GAPP">
+            <div class="content">
+                <p>Rua Xxxxxxx Xxxxxx - Xxxxx</p>
+                <p>CEP: XXXXX-XXX São Paulo, SP - Brazil</p>
+                <p>Tel: +55 11 XXXX-XXXX</p>
+                <p>E-mail: <a href="#">contato@gapp.com.br</a></p>
+            </div>
+        </div>
+        <div class="container-localization">
+            <img src="./images/icon-location.png" alt="GAPP">
+            
+        </div>
+        <div class="container-final">
+            <h4>Fale conosco</h4>
+            <span>copyright @ GAPP Industeial - Todos os direitos reservados.</span>
         </div>
     </footer>
     
